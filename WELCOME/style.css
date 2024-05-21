@@ -20,7 +20,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body {
@@ -357,8 +357,12 @@ a {
     transform: translateX(-80%);
   }
   .slider__slide-info--wrapper .slider__silde-info .slide__text--description {
-    opacity: 0;
-    height: 0;
+    opacity: 100;
+    height: 100;
+    posisition: fixed;
+    transform: translateX(-80%);
+    font-size: 1rem;
+    font-weight: bold;
   }
 
   .frame__credits {
