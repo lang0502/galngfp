@@ -26,9 +26,12 @@ body {
   position:fixed;
   left:50%; top:50%;
   transform:translate(-50%, -50%);
-  color:white;
   opacity:1;
   transition:opacity 1s;
+  color: #f9f1e9;
+  text-align: center;
+  top: 50%;
+  left: 50%;
 }
 
 #circle {
