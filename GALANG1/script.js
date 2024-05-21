@@ -93,7 +93,7 @@ function createStars() {
 }
 
 window.onload = function () {
-  document.getElementById("earth").style.opacity = "100";
+  document.getElementById("welcome").style.opacity = "100";
   setTimeout(function(){
     document.getElementById("all_content").style.opacity = "1";
   },3000);
