@@ -93,10 +93,10 @@ function createStars() {
 }
 
 window.onload = function () {
-  document.getElementById("welcome").style.opacity = "0";
+  document.getElementById("earth").style.opacity = "100";
   setTimeout(function(){
     document.getElementById("all_content").style.opacity = "1";
-  },500);
+  },3000);
   //Creating all the stars.
   for (let k = 0; k < 150; k++) {
     createStars();
