@@ -96,7 +96,7 @@ window.onload = function () {
   document.getElementById("welcome").style.opacity = "0";
   setTimeout(function(){
     document.getElementById("all_content").style.opacity = "1";
-  },3000);
+  },2000);
   //Creating all the stars.
   for (let k = 0; k < 150; k++) {
     createStars();
